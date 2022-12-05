@@ -15,6 +15,8 @@ body {
     color: var(--color-text-primary);
     background-color: var(--color-background-primary);
     font-family: "Roboto", sans-serif;
+
+    width: auto;
 }
 
 ul{
@@ -23,7 +25,7 @@ ul{
 }
 
 .container {
-    width: 1600px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -47,7 +49,9 @@ ul{
 
 .header-logo-container {
     display: flex;
-    margin: 24px 93px 25px 215px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    padding-right: 93px;
 }
 
 .logoheader-web {
@@ -69,12 +73,10 @@ ul{
 
 .header-list-container {
     display: flex;
-    align-items: center;
 }
 
 .nav-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -83,8 +85,9 @@ ul{
     align-items: center;
     justify-content: space-between;
     gap: 50px;
-
-    margin-right: 354px;
+    padding-right: 354px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .contact-container {
@@ -92,6 +95,8 @@ ul{
     align-items: center;
     justify-content: space-between;
     gap: 40px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .header-list {
@@ -111,11 +116,27 @@ ul{
     color: var(--color-action);
 }
 
+.header-contact {
+    color: var(--color-text-secondary);
+    font-size: 14px;
+    line-height: 1.172;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.header-contact:hover {
+    color: var(--color-action);
+}
+
+.header-contact:focus {
+    color: var(--color-action);
+}
+
 /* Стилі до елементів мейн */
 
 .hero-section {
     background-color: var(--color-background-secondary);
-    width: 1600px;
     height: 600px;
     padding-bottom: 94px;
     margin: 0 auto;
@@ -166,10 +187,8 @@ ul{
 
 .list-maim-container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     gap: 30px;
-    padding: 0 215px;
 }
 
 .list-maim {
@@ -177,6 +196,7 @@ ul{
     font-size: 14px;
     line-height: 1.172;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 
     margin-bottom: 10px;
 }
@@ -195,8 +215,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
-    padding: 0 215px;
+    gap: 30px;    
 }
 
 .team-section-container {
@@ -204,7 +223,6 @@ ul{
     align-items: center;
     justify-content: space-between;
     gap: 30px;
-    padding: 0 215px;
 }
 
 .team-card {
@@ -342,15 +360,11 @@ ul{
 
 .footer {
     background-color: var(--color-background-secondary);
-    width: 1600px;
-
-    margin: auto;
 }
 
 .footer-logo-container {
     padding-top: 60px;
     padding-bottom: 28px;
-    margin-left: 215px;
 }
 
 .logofooter-web {
@@ -370,7 +384,6 @@ ul{
 }
 
 .footer-address-container {
-    margin-left: 215px;
     padding-bottom: 60px;
     gap: 12px;
 
