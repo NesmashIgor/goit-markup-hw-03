@@ -188,6 +188,9 @@ ul, h1, h2, h3, p {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .list-maim {
