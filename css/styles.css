@@ -283,7 +283,9 @@ ul, h1, h2, h3, p {
     letter-spacing: 0.03em;
     font-family: inherit;
     cursor: pointer;
-
+    
+    border-radius: 4px;
+    border: #F5F4FA;
     padding: 6px 22px;
 }
 
