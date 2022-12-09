@@ -26,6 +26,8 @@ ul, h1, h2, h3, p {
 .container {
     width: 1200px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo {
@@ -73,6 +75,8 @@ ul, h1, h2, h3, p {
 
 .header-list-container {
     display: flex;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .nav-container {
@@ -188,9 +192,6 @@ ul, h1, h2, h3, p {
     display: flex;
     justify-content: space-between;
     gap: 30px;
-
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .list-maim {
@@ -218,9 +219,6 @@ ul, h1, h2, h3, p {
     align-items: center;
     justify-content: space-between;
     gap: 30px;  
-    
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .team-section-container {
@@ -228,9 +226,6 @@ ul, h1, h2, h3, p {
     align-items: center;
     justify-content: space-between;
     gap: 30px;
-
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .team-card {
@@ -306,8 +301,6 @@ ul, h1, h2, h3, p {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .portfolio-item {
